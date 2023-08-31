@@ -1,4 +1,7 @@
 import datetime
+import os
+class indices
+
 class Paciente:
     def __init__(self):
         self.__nombre = ""
@@ -28,7 +31,7 @@ class visita:
         self.__fecha = " "
         self.__registro = " "
         self.__notas = " "
-        self.__indices = object()
+        self.__indices = indices()
     
     def verfecha(self):
         return self.__fecha
@@ -48,7 +51,7 @@ class visita:
     def asignarindices(self,i):
         self.__indices = i
 
-        
+
 
 
 
